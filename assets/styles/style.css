@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+/* Header starts here */
+header {
+  background-color: black;
+  padding-bottom: 20px;
+}
+
+/* Nav starts here */
+nav {
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+nav img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.nav-right ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.nav-right ul li a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.nav-right ul:last-child{
+  margin-right:10px;
+}
+/* Nav ends here */
+
+/* Jumbotron starts here */
+.jumbotron {
+  width: 100%;
+  max-width: 1200px;
+  height: 700px;
+  background-image: url("/assets/images/img-mission-background.jpg");
+  background-position: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h2, 
+.jumbotron h4 {
+  width: 100%;
+  max-width: 1200px;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  font-family: Helvetica; 
+  color: seashell;
+}
+/* Jumbotron ends here */
+/* Header ends here */
+
+/* Main starts here */
+main {
+  background-color: black;
+  width: 100%;
+}
+
+.main-title {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Helvetica; 
+  color: seashell;
+  padding-bottom: 20px;
+}
+
+.main-tea {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+main figcaption {
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+.main-locations {
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  background-image: url("/assets/images/img-locations-background.jpg");
+  background-position: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.main-location-title h2 {
+  color: seashell;
+  font-family: Helvetica; 
+  margin-bottom: 15px;
+}
+
+.main-location-boxes {
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  display: flex;
+  gap: 40px;
+}
+
+.main-location {
+  width: 300px;
+  background-color: black;
+  padding: 30px 0;
+  line-height: 60px;
+  text-align: center;
+}
+
+.main-location h3 {
+  font-size: 36px;
+}
+/* Main ends here */
+
+/* Footer starts here */
+footer {
+  background-color: black;
+  width: 100%;
+}
+
+.footer-title {
+  color: seashell;
+  font-family: Helvetica;
+  text-align: center;
+  padding-top: 30px;
+  line-height: 50px;
+  height: 200px;
+}
+
+.footer-title {
+  font-size: 18px;
+}
+
+.footer-copyright {
+  color: seashell;
+  font-family: Helvetica;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Footer ends here */
